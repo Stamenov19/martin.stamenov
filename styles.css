@@ -1,0 +1,134 @@
+
+
+body {
+    font-family: "Graffiti", cursive;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+
+h1, h2 {
+    font-family: "Graffiti", cursive;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    background-image: url("cool-background.png");
+}
+header div.ime p.slika{
+    background-image: url("slika od mene.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 480px;
+    height: 498px;
+    margin: auto;
+}
+
+.name-container {
+    float: left;
+}
+
+.name {
+    font-size: 30px;
+    margin: 0;
+}
+
+.index {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    color: whitesmoke;
+    padding: 12px;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 12px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.section-container {
+    padding: 20px;
+    margin-top: 20px;
+    background-image: url("cool-background.png");
+}
+
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 5px;
+}
+
+table {
+    border-collapse: collapse;
+    flex: auto;
+}
+
+td {
+    padding: 7px;
+    text-align: center;
+    border:  2px solid black;
+}
+table tr:first-child{
+    font-style: italic;
+    font-size: larger;
+    border: 3px solid black;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+ul {
+    margin-top: 0;
+    padding-left: 20px;
+}
+tr{
+    display:flex;
+}
+td{
+    flex:1;
+}
+div.ime h1.slikaime
+{
+    background-image: url("toppng.com-black-and-white-ribbon-banner-966x614.png");
+    width: 835px;
+    height: 200px;
+    margin: auto;
+}
+div.ime h1.ime{
+margin-top: -100px;
+}
